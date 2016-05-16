@@ -1,0 +1,40 @@
+{
+  "name": "electron-typescript-react-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application with React",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "electron dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudioc/electron-typescript-react-quick-start.git"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "react",
+    "systemjs"
+  ],
+  "author": "Claudio Cicali",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^2.2.0",
+    "electron-prebuilt": "^1.0.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-inject": "^4.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.13.4",
+    "run-sequence": "^1.1.5",
+    "typescript": "^1.8.10"
+  },
+  "dependencies": {
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "systemjs": "^0.19.27"
+  }
+}
