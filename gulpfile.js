@@ -12,30 +12,29 @@ gulp.task('default', function (done) {
     inSequence(
         'clear',
         [
-			'build-vendor',
-			'build-app',
-			'copy-app-package-file',
-			'copy-app-main-file'
-		],
+            'build-vendor',
+            'build-app',
+            'copy-app-package-file',
+            'copy-app-main-file'
+        ],
         'build-html'
     );
-
 });
 
 gulp.task('clear', function (done) {
-	del.sync(['dist/**/*'], { force: true });
-	done();
+    del.sync(['dist/**/*'], { force: true });
+    done();
 });
 
 gulp.task('copy-app-package-file', function () {
-	return gulp.src('src/app.package.json')
-		.pipe(rename('package.json'))
-		.pipe(gulp.dest('dist'));
+    return gulp.src('src/app.package.json')
+        .pipe(rename('package.json'))
+        .pipe(gulp.dest('dist'));
 });
 
 gulp.task('copy-app-main-file', function () {
-	return gulp.src('src/main.js')
-		.pipe(gulp.dest('dist'));
+    return gulp.src('src/main.js')
+        .pipe(gulp.dest('dist'));
 });
 
 gulp.task('build-vendor', function(){

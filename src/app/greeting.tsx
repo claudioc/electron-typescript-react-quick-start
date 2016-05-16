@@ -4,9 +4,6 @@ import ReactDOM from 'react-dom';
 
 export default class Greeting {
 
-    constructor() {
-    }
-
     hello() {
 
         ReactDOM.render(

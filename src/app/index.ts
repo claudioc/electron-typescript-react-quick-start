@@ -1,6 +1,6 @@
 import Greeting from './greeting';
 
-const g = new Greeting();
+const greeting = new Greeting();
 
-g.hello();
+greeting.hello();
 
