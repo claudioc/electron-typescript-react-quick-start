@@ -8,6 +8,8 @@ something you don't really need at the moment.
 
 ## Install
 
+Note: if you use `typings` version 0.x and not 1.x, then you need to use `typings-pre-1.json` as your `typings.json` (sigh...)
+
 ```bash
 npm install
 npm install -g typings gulp
