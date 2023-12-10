@@ -1,3 +1,5 @@
+# OBSOLETE - DO NOT USE :)
+
 # Electron + Typescript + React JSX + Systemjs
 
 This is a very minimal setup to start writing Electron applications which use Typescript and React.
